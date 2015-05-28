@@ -9,6 +9,7 @@
 - MongoDB 3.0.3
 - godep
 - node.js 0.12.3 with npm 2.9.1
+- lcov 1.10
 
 ## Getting Started
 
