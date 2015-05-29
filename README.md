@@ -2,6 +2,8 @@
 
 > Docker image of Ubuntu 14.04 with Golang, MongoDB, Git, godep and node.js
 
+[![Docker Repository on Quay.io](https://quay.io/repository/coverit/docker-golang-dev/status "Docker Repository on Quay.io")](https://quay.io/repository/coverit/docker-golang-dev)
+
 ## Features
 
 - Golang 1.4.2
