@@ -17,6 +17,9 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 && \
 # Install wget
 RUN apt-get install -y wget
 
+# Install curl
+RUN apt-get install -y curl
+
 # Install git
 RUN apt-get install -y git
 
