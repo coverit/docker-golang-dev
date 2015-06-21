@@ -37,6 +37,9 @@ RUN go get github.com/tools/godep
 RUN apt-get install -y build-essential && \
     wget -qO- https://github.com/taaem/nodejs-linux-installer/releases/download/0.2/node-install.sh | bash
 
+# Install yoeman-angular related
+RUN npm install -g grunt-cli bower yo generator-karma generator-angular
+
 # Install lcov and gcc4.4, for test env of coverit-cli
 RUN apt-get install -y lcov gcc-4.4 && \
     update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50 --slave /usr/bin/gcov gcov /usr/bin/gcov-4.8 && \
